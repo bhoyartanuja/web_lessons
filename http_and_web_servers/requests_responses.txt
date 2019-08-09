@@ -29,5 +29,10 @@ localhost
 /wiki/Fish -- path
 path --  identifies a particular resource on a server
  
-
 no path scheme:hostname/ -- root (single slash --default when no path is specified)
+
+https://en.wikipedia.org/wiki/Oxygen#Discovery
+part of URI after  # sign -- fragment -- not sent to the server
+
+https://www.google.com/search?q=fish
+part of URI after ? -- query -- sent to server
