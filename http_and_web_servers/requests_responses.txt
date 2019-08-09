@@ -1,0 +1,33 @@
+The Python http.server module, can run a built-in web server on your computer
+
+python3 -m http.server 8000
+
+A server is just a program that accepts connections from other programs on the network.
+
+URI -- Uniform Resource Identifier
+web address or name for a resource
+(URL -- Uniform Resource Locator -- URI for a resource on the network)
+
+example -- https://en.wikipedia.org/wiki/Fish
+schema:
+//hostname
+
+This URI has three visible parts:
+https -- scheme
+scheme 
+file URIs tell the client to access a file on the local filesystem. 
+HTTP and HTTPS URIs point to resources served by a web server.
+mailto -- links to email addresses.
+data -- used to put a piece of hardcoded data directly into a web page, for instance a small image. 
+magnet -- used for links to some file-sharing services such as BitTorrent.
+
+en.wikipedia.org --  hostname
+hostname -- which server to connect to.
+localhost
+
+
+/wiki/Fish -- path
+path --  identifies a particular resource on a server
+ 
+
+no path scheme:hostname/ -- root (single slash --default when no path is specified)
