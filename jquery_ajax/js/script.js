@@ -49,11 +49,8 @@ function loadData() {
         $wikiElem.text('Failed to get wikipedia resources')
     }, 8000)
 
-    var searchString = address.split(',')
-    searchString = searchString[1]
-
     //USing CORS
-//    var wikiApiEndpoint = 'https://commons.wikimedia.org/w/api.php?action=opensearch&search='+searchString+'&format=json&origin=*'
+//    var wikiApiEndpoint = 'https://commons.wikimedia.org/w/api.php?action=opensearch&search='+city+'&format=json&origin=*'
 //    $.ajax(
 //        {
 //        url : wikiApiEndpoint,
@@ -73,7 +70,7 @@ function loadData() {
 //    })
 
     //Using JSONP
-    var wikiApiEndpoint = 'https://commons.wikimedia.org/w/api.php?action=opensearch&search='+searchString+'&format=json&callback=wikiCallback'
+    var wikiApiEndpoint = 'https://commons.wikimedia.org/w/api.php?action=opensearch&search='+city+'&format=json&callback=wikiCallback'
     $.ajax(
         {
         url : wikiApiEndpoint,
