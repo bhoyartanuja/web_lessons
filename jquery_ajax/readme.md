@@ -28,9 +28,3 @@ and then specific post or search result is displayed
 1. Using [.error()](https://api.jquery.com/error/) through chaining
 2. When Using JSONP, there's no built-in method for error handling,
 handled using setTimeout.
-
-
-#### APIs Used
-1. [The NYT article search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
-2. [The Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
-3. Google Street View
