@@ -70,7 +70,7 @@ function loadData() {
 //    })
 
     //Using JSONP
-    var wikiApiEndpoint = 'https://commons.wikimedia.org/w/api.php?action=opensearch&search='+city+'&format=json&callback=wikiCallback'
+    var wikiApiEndpoint = 'https://en.wikipedia1232311344.org/w/api.php?action=opensearch&search='+city+'&format=json&callback=wikiCallback'
     $.ajax(
         {
         url : wikiApiEndpoint,
@@ -104,3 +104,5 @@ $('#form-container').submit(loadData);
     Many APIs allow you to provide a callback function name,
     and they will generate a JavaScript file that passes the data into that function when it gets run in your browser.
 */
+
+// Improving Performance
